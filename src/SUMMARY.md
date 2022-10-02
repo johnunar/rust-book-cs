@@ -1,39 +1,39 @@
 # The Rust Programming Language
 
-[The Rust Programming Language](title-page.md)
-[Foreword](foreword.md)
-[Introduction](ch00-00-introduction.md)
+[Programovací jazyk Rust](title-page.md) |
+[Předmluva](foreword.md) |
+[Úvod](ch00-00-introduction.md)
 
 ## Getting started
 
-- [Getting Started](ch01-00-getting-started.md)
-    - [Installation](ch01-01-installation.md)
+- [Jak začít](ch01-00-getting-started.md)
+    - [Instalace](ch01-01-installation.md)
     - [Hello, World!](ch01-02-hello-world.md)
     - [Hello, Cargo!](ch01-03-hello-cargo.md)
 
-- [Programming a Guessing Game](ch02-00-guessing-game-tutorial.md)
+- [Programování hádací hry](ch02-00-guessing-game-tutorial.md)
 
-- [Common Programming Concepts](ch03-00-common-programming-concepts.md)
-    - [Variables and Mutability](ch03-01-variables-and-mutability.md)
-    - [Data Types](ch03-02-data-types.md)
-    - [Functions](ch03-03-how-functions-work.md)
-    - [Comments](ch03-04-comments.md)
-    - [Control Flow](ch03-05-control-flow.md)
+- [Běžné koncepty programování](ch03-00-common-programming-concepts.md)
+    - [Proměnné a mutabilita](ch03-01-variables-and-mutability.md)
+    - [Datové typy](ch03-02-data-types.md)
+    - [Funkce](ch03-03-how-functions-work.md)
+    - [Komentáře](ch03-04-comments.md)
+    - [Řízení toku](ch03-05-control-flow.md)
 
-- [Understanding Ownership](ch04-00-understanding-ownership.md)
-    - [What is Ownership?](ch04-01-what-is-ownership.md)
-    - [References and Borrowing](ch04-02-references-and-borrowing.md)
-    - [The Slice Type](ch04-03-slices.md)
+- [Porozumění vlastnictví](ch04-00-understanding-ownership.md)
+    - [Co je vlastnictví?](ch04-01-what-is-ownership.md)
+    - [Reference a půjčování](ch04-02-references-and-borrowing.md)
+    - ["Slice" typ](ch04-03-slices.md)
 
-- [Using Structs to Structure Related Data](ch05-00-structs.md)
-    - [Defining and Instantiating Structs](ch05-01-defining-structs.md)
-    - [An Example Program Using Structs](ch05-02-example-structs.md)
-    - [Method Syntax](ch05-03-method-syntax.md)
+- [Používání struktur pro shlukování příbuzných dat](ch05-00-structs.md)
+    - [Definování a instancování struktur](ch05-01-defining-structs.md)
+    - [Příklad programu používající struktury](ch05-02-example-structs.md)
+    - [Syntaxe metod](ch05-03-method-syntax.md)
 
-- [Enums and Pattern Matching](ch06-00-enums.md)
-    - [Defining an Enum](ch06-01-defining-an-enum.md)
+- [Enum a porovnávání vzorů](ch06-00-enums.md)
+    - [Definování výčtového typu Enum](ch06-01-defining-an-enum.md)
     - [The `match` Control Flow Construct](ch06-02-match.md)
-    - [Concise Control Flow with `if let`](ch06-03-if-let.md)
+    - [Stručný tok řízeni s `if let`](ch06-03-if-let.md)
 
 ## Basic Rust Literacy
 
