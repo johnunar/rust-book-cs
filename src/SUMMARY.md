@@ -4,14 +4,14 @@
 [Předmluva](foreword.md) |
 [Úvod](ch00-00-introduction.md)
 
-## Getting started
+## Jak začít
 
 - [Jak začít](ch01-00-getting-started.md)
     - [Instalace](ch01-01-installation.md)
     - [Hello, World!](ch01-02-hello-world.md)
     - [Hello, Cargo!](ch01-03-hello-cargo.md)
 
-- [Programování hádací hry](ch02-00-guessing-game-tutorial.md)
+- [Programování tipovací hry](ch02-00-guessing-game-tutorial.md)
 
 - [Běžné koncepty programování](ch03-00-common-programming-concepts.md)
     - [Proměnné a mutabilita](ch03-01-variables-and-mutability.md)
@@ -32,47 +32,47 @@
 
 - [Enum a porovnávání vzorů](ch06-00-enums.md)
     - [Definování výčtového typu Enum](ch06-01-defining-an-enum.md)
-    - [The `match` Control Flow Construct](ch06-02-match.md)
+    - [Konstrukt toku řízení `match`](ch06-02-match.md)
     - [Stručný tok řízeni s `if let`](ch06-03-if-let.md)
 
-## Basic Rust Literacy
+## Základní znalost Rustu
 
-- [Managing Growing Projects with Packages, Crates, and Modules](ch07-00-managing-growing-projects-with-packages-crates-and-modules.md)
-    - [Packages and Crates](ch07-01-packages-and-crates.md)
-    - [Defining Modules to Control Scope and Privacy](ch07-02-defining-modules-to-control-scope-and-privacy.md)
-    - [Paths for Referring to an Item in the Module Tree](ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md)
-    - [Bringing Paths Into Scope with the `use` Keyword](ch07-04-bringing-paths-into-scope-with-the-use-keyword.md)
-    - [Separating Modules into Different Files](ch07-05-separating-modules-into-different-files.md)
+- [Správa rostoucích projektů pomocí balíčků, beden a modulů](ch07-00-managing-growing-projects-with-packages-crates-and-modules.md)
+    - [Balíčky a bedny](ch07-01-packages-and-crates.md)
+    - [Definování modulů pro kontrolu viditelnosti a přístupu](ch07-02-defining-modules-to-control-scope-and-privacy.md)
+    - [Cesty pro odkazování na položky ve stromu modulů](ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md)
+    - [Zviditelňování cest s použitím  `use`](ch07-04-bringing-paths-into-scope-with-the-use-keyword.md)
+    - [Rozdělení modulů do souborů](ch07-05-separating-modules-into-different-files.md)
 
-- [Common Collections](ch08-00-common-collections.md)
-    - [Storing Lists of Values with Vectors](ch08-01-vectors.md)
-    - [Storing UTF-8 Encoded Text with Strings](ch08-02-strings.md)
-    - [Storing Keys with Associated Values in Hash Maps](ch08-03-hash-maps.md)
+- [Základní kolekce](ch08-00-common-collections.md)
+    - [Ukládání seznamů dat pomocí Vectorů](ch08-01-vectors.md)
+    - [Ukládání textu v UTF-8 pomocí řetězců](ch08-02-strings.md)
+    - [Ukládání párů hodnot pomocí Hash map](ch08-03-hash-maps.md)
 
-- [Error Handling](ch09-00-error-handling.md)
-    - [Unrecoverable Errors with `panic!`](ch09-01-unrecoverable-errors-with-panic.md)
-    - [Recoverable Errors with `Result`](ch09-02-recoverable-errors-with-result.md)
-    - [To `panic!` or Not to `panic!`](ch09-03-to-panic-or-not-to-panic.md)
+- [Ošetření chyb](ch09-00-error-handling.md)
+    - [Závažné chyby s `panic!`](ch09-01-unrecoverable-errors-with-panic.md)
+    - [Nezávažné chyby s `Result`](ch09-02-recoverable-errors-with-result.md)
+    - [Použít `panic!`, čí nepoužít `panic!`](ch09-03-to-panic-or-not-to-panic.md)
 
-- [Generic Types, Traits, and Lifetimes](ch10-00-generics.md)
-    - [Generic Data Types](ch10-01-syntax.md)
-    - [Traits: Defining Shared Behavior](ch10-02-traits.md)
-    - [Validating References with Lifetimes](ch10-03-lifetime-syntax.md)
+- [Generické typy, Traits, Lifetimes](ch10-00-generics.md)
+    - [Generické datové typy](ch10-01-syntax.md)
+    - [Traits: Definování sdíleného chování](ch10-02-traits.md)
+    - [Validace referencí pomocí životnosti](ch10-03-lifetime-syntax.md)
 
-- [Writing Automated Tests](ch11-00-testing.md)
-    - [How to Write Tests](ch11-01-writing-tests.md)
-    - [Controlling How Tests Are Run](ch11-02-running-tests.md)
-    - [Test Organization](ch11-03-test-organization.md)
+- [Psaní automatizovaných testů](ch11-00-testing.md)
+    - [Jak psát testy](ch11-01-writing-tests.md)
+    - [Řízení provádění testů](ch11-02-running-tests.md)
+    - [Organizace testů](ch11-03-test-organization.md)
 
-- [An I/O Project: Building a Command Line Program](ch12-00-an-io-project.md)
-    - [Accepting Command Line Arguments](ch12-01-accepting-command-line-arguments.md)
-    - [Reading a File](ch12-02-reading-a-file.md)
-    - [Refactoring to Improve Modularity and Error Handling](ch12-03-improving-error-handling-and-modularity.md)
-    - [Developing the Library’s Functionality with Test Driven Development](ch12-04-testing-the-librarys-functionality.md)
-    - [Working with Environment Variables](ch12-05-working-with-environment-variables.md)
-    - [Writing Error Messages to Standard Error Instead of Standard Output](ch12-06-writing-to-stderr-instead-of-stdout.md)
+- [I/O Projekt: Program v příkazové řádce](ch12-00-an-io-project.md)
+    - [Přijímání argumentů v příkazové řádce](ch12-01-accepting-command-line-arguments.md)
+    - [Čtení souborů](ch12-02-reading-a-file.md)
+    - [Refaktorizace za účelem vylepšení modularity a ošetření chyb](ch12-03-improving-error-handling-and-modularity.md)
+    - [Vývoj funkčnosti knihovny pomocí vývoje řízeného testy](ch12-04-testing-the-librarys-functionality.md)
+    - [Práce s proměnnými prostředí](ch12-05-working-with-environment-variables.md)
+    - [Zápis chybových zpráv do standardního chybového výstupu místo do standardního výstupu](ch12-06-writing-to-stderr-instead-of-stdout.md)
 
-## Thinking in Rust
+## Myšlení v Rustu
 
 - [Functional Language Features: Iterators and Closures](ch13-00-functional-features.md)
     - [Closures: Anonymous Functions that Capture Their Environment](ch13-01-closures.md)
@@ -106,7 +106,7 @@
     - [Using Trait Objects That Allow for Values of Different Types](ch17-02-trait-objects.md)
     - [Implementing an Object-Oriented Design Pattern](ch17-03-oo-design-patterns.md)
 
-## Advanced Topics
+## Pokročilá témata
 
 - [Patterns and Matching](ch18-00-patterns.md)
     - [All the Places Patterns Can Be Used](ch18-01-all-the-places-for-patterns.md)
