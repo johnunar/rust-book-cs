@@ -1,4 +1,4 @@
-personal_ws-1.1 en 0 utf-8
+personal_ws-1.1 cs 0 utf-8
 abcabcabc
 abcd
 abcdefghijklmnopqrstuvwxyz
@@ -18,7 +18,7 @@ AlwaysEqual
 Amir
 anotherusername
 APIs
-app's
+app
 aren
 args
 ArgumentV
@@ -34,7 +34,7 @@ backtrace
 backtraces
 BACKTRACE
 Backtraces
-Baz's
+Baz
 benchmarking
 bioinformatics
 bitand
@@ -76,7 +76,7 @@ choo
 chXX
 chYY
 clippy
-clippy's
+clippy
 cmdlet
 coercions
 combinator
@@ -86,7 +86,7 @@ Config
 confignew
 const
 consts
-constant's
+constant
 copyeditor
 couldn
 CPUs
@@ -102,7 +102,7 @@ Ctrl
 customizable
 CustomSmartPointer
 CustomSmartPointers
-data's
+data
 DataStruct
 deallocate
 deallocated
@@ -148,13 +148,13 @@ ebook
 ebooks
 Edsger
 egular
-else's
+else
 emoji
 encodings
 enum
 Enum
 enums
-enum's
+enum
 Enums
 eprintln
 Erlang
@@ -174,7 +174,7 @@ filename
 Filename
 filesystem
 Filesystem
-filesystem's
+filesystem
 filesystems
 filmmaking
 Firefox
@@ -224,7 +224,7 @@ Iceburgh
 ident
 IDE
 IDEs
-IDE's
+IDE
 IEEE
 impl
 implementor
@@ -253,10 +253,10 @@ IpAddrKind
 irst
 isize
 iter
-iterator's
+iterator
 JavaScript
 JoinHandle
-Kay's
+Kay
 kinded
 Klabnik
 lang
@@ -311,7 +311,7 @@ MulAssign
 multibyte
 multithreaded
 mutex
-mutex's
+mutex
 Mutex
 mutexes
 Mutexes
@@ -340,7 +340,7 @@ nongeneric
 noplayground
 NotFound
 nsprust
-null's
+null
 OCaml
 offsetof
 online
@@ -350,7 +350,7 @@ OptionalFloatingPointNumber
 OptionalNumber
 OsStr
 OsString
-other's
+other
 otherinstall
 OtherError
 OurError
@@ -412,7 +412,7 @@ reimplement
 RemAssign
 repr
 representable
-request's
+request
 resizes
 resizing
 ReturnedError
@@ -466,14 +466,14 @@ stdin
 Stdin
 stdlib
 stdout
-steveklabnik's
+steveklabnik
 stringify
 Stroustrup
-Stroustrup's
+Stroustrup
 struct
 Struct
 structs
-struct's
+struct
 Structs
 StrWrap
 SubAssign
@@ -485,7 +485,6 @@ subdirectory
 submodule
 submodules
 Submodules
-submodule’s
 suboptimal
 subpath
 substring
@@ -498,14 +497,13 @@ supertraits
 TcpListener
 TcpStream
 templating
-test's
+test
 TextField
-That'd
-there'd
+That
+there
 ThreadPool
 threadpool
 timestamp
-Tiếng
 timeline
 tlborm
 tlsv
@@ -553,8 +551,8 @@ usize
 UsState
 utils
 vals
-variable's
-variant's
+variable
+variant
 vers
 versa
 vert
