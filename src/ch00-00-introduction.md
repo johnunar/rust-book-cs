@@ -1,56 +1,49 @@
-# Introduction
+# Úvod
 
-> Note: This edition of the book is the same as [The Rust Programming
-> Language][nsprust] available in print and ebook format from [No Starch
+> Pozn.: Toto vydání je stejné jako kniha [The Rust Programming
+> Language][nsprust] dostupná v tištěné formě nebo jako ebook. [No Starch
 > Press][nsp].
 
 [nsprust]: https://nostarch.com/rust
+
 [nsp]: https://nostarch.com/
 
-Welcome to *The Rust Programming Language*, an introductory book about Rust.
-The Rust programming language helps you write faster, more reliable software.
-High-level ergonomics and low-level control are often at odds in programming
-language design; Rust challenges that conflict. Through balancing powerful
-technical capacity and a great developer experience, Rust gives you the option
-to control low-level details (such as memory usage) without all the hassle
-traditionally associated with such control.
+Vítejte v úvodní knize o jazyce Rust. Rust vám pomůže psát rychlejší a spolehlivější software.
+Vysokoúrovňová ergonomie a nízkoúrovňové řízení jsou v programování často v rozporu a Rust tento rozpor zpochybňuje.
+Díky vyvážení výkonné technické kapacity a skvělého vývojářského zážitku vám Rust dává možnost
+kontrolovat nízkoúrovňové detaily (například využití paměti) bez všech problémů
+tradičně s takovou kontrolou spojených.
 
-## Who Rust Is For
+## Pro koho Rust je
 
-Rust is ideal for many people for a variety of reasons. Let’s look at a few of
-the most important groups.
+Rust je ideální pro mnoho lidí z několika různých důvodů. Podívejme se na některé z těch
+nejdůležitějších skupin.
 
-### Teams of Developers
+### Týmy vývojářů
 
-Rust is proving to be a productive tool for collaborating among large teams of
-developers with varying levels of systems programming knowledge. Low-level code
-is prone to a variety of subtle bugs, which in most other languages can be
-caught only through extensive testing and careful code review by experienced
-developers. In Rust, the compiler plays a gatekeeper role by refusing to
-compile code with these elusive bugs, including concurrency bugs. By working
-alongside the compiler, the team can spend their time focusing on the program’s
-logic rather than chasing down bugs.
+Rust se ukazuje jako produktivní nástroj pro spolupráci velkých vývojářských týmů
+s různou úrovní znalostí systémového programování. Nízkoúrovňový kód je náchylný k různým nenápadným chybám, které lze
+ve většině jiných jazyků zachytit pouze díky rozsáhlému testování a pečlivé kontrole kódu zkušenými vývojáři.
+V jazyce Rust hraje kompilátor roli strážce tím, že odmítá kompilovat kód s těmito nevyzpytatelnými chybami, včetně chyb
+spojených s pararelismem. S pomocí kompilátoru může tým věnovat svůj čas soustředění se na logiku programu, místo aby se
+zabýval hledáním chyb.
 
-Rust also brings contemporary developer tools to the systems programming world:
+Rust přináší do světa systémového programování také moderní vývojářské nástroje:
 
-* Cargo, the included dependency manager and build tool, makes adding,
-  compiling, and managing dependencies painless and consistent across the Rust
-  ecosystem.
-* Rustfmt ensures a consistent coding style across developers.
-* The Rust Language Server powers Integrated Development Environment (IDE)
-  integration for code completion and inline error messages.
+* Cargo, přibalený správce závislostí a nástroj pro sestavení, umožňuje přidávat, kompilovat a spravovat závislosti bez
+  problémů a konzistentně v celém ekosystému Rust.
+* Rustfmt zajišťuje konzistentní styl zápisu u všech vývojářů.
+* Rust Language Server umožňuje integraci automatického dokončování kódu a inline chybových zpráv do vývojového
+  prostředí (IDE).
 
-By using these and other tools in the Rust ecosystem, developers can be
-productive while writing systems-level code.
+Pomocí těchto a dalších nástrojů v ekosystému Rust mohou být vývojáři produktivní při psaní kódu na systémové úrovni.
 
-### Students
+### Studenti
 
-Rust is for students and those who are interested in learning about systems
-concepts. Using Rust, many people have learned about topics like operating
-systems development. The community is very welcoming and happy to answer
-student questions. Through efforts such as this book, the Rust teams want to
-make systems concepts more accessible to more people, especially those new to
-programming.
+Rust je určen pro studenty a zájemce o systémové koncepty. Pomocí jazyka Rust se mnoho lidí naučilo témata, jako je
+vývoj operačních systémů. Komunita je velmi vstřícná a ráda odpovídá na dotazy studentů. Prostřednictvím úsilí, jako je
+tato kniha, chtějí týmy Rustu zpřístupnit systémové koncepty více lidem, zejména těm, kteří se s programováním teprve
+seznamují.
 
 ### Companies
 
