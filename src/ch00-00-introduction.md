@@ -8,178 +8,186 @@
 
 [nsp]: https://nostarch.com/
 
-Vítejte v úvodní knize o jazyce Rust. Rust vám pomůže psát rychlejší a spolehlivější software.
-Vysokoúrovňová ergonomie a nízkoúrovňové řízení jsou v programování často v rozporu a Rust tento rozpor zpochybňuje.
-Díky vyvážení výkonné technické kapacity a skvělého vývojářského zážitku vám Rust dává možnost
+Vítejte v úvodní knize o jazyce Rust. Rust vám pomůže psát rychlejší a
+spolehlivější software. Vysokoúrovňová ergonomie a nízkoúrovňové řízení jsou v
+programování často v rozporu a Rust tento rozpor zpochybňuje. Díky vyvážení
+výkonné technické kapacity a skvělého vývojářského zážitku vám Rust dává možnost
 kontrolovat nízkoúrovňové detaily (například využití paměti) bez všech problémů
 tradičně s takovou kontrolou spojených.
 
-## Pro koho Rust je
+## Pro koho je Rust
 
-Rust je ideální pro mnoho lidí z několika různých důvodů. Podívejme se na některé z těch
-nejdůležitějších skupin.
+Rust je ideální pro mnoho lidí z několika různých důvodů. Podívejme se na
+některé z těch nejdůležitějších skupin.
 
 ### Týmy vývojářů
 
-Rust se ukazuje jako produktivní nástroj pro spolupráci velkých vývojářských týmů
-s různou úrovní znalostí systémového programování. Nízkoúrovňový kód je náchylný k různým nenápadným chybám, které lze
-ve většině jiných jazyků zachytit pouze díky rozsáhlému testování a pečlivé kontrole kódu zkušenými vývojáři.
-V jazyce Rust hraje kompilátor roli strážce tím, že odmítá kompilovat kód s těmito nevyzpytatelnými chybami, včetně chyb
-spojených s pararelismem. S pomocí kompilátoru může tým věnovat svůj čas soustředění se na logiku programu, místo aby se
-zabýval hledáním chyb.
+Rust se ukazuje jako produktivní nástroj pro spolupráci velkých vývojářských
+týmů s různou úrovní znalostí systémového programování. Nízkoúrovňový kód je
+náchylný k různým nenápadným chybám, které lze ve většině jiných jazyků zachytit
+pouze díky rozsáhlému testování a pečlivé kontrole kódu zkušenými vývojáři.
+V jazyce Rust hraje kompilátor roli strážce tím, že odmítá kompilovat kód s
+těmito nevyzpytatelnými chybami, včetně chyb spojených s pararelismem. S pomocí
+kompilátoru může tým věnovat svůj čas soustředění se na logiku programu, místo
+aby se zabýval hledáním chyb.
 
 Rust přináší do světa systémového programování také moderní vývojářské nástroje:
 
-* Cargo, přibalený správce závislostí a nástroj pro sestavení, umožňuje přidávat, kompilovat a spravovat závislosti bez
-  problémů a konzistentně v celém ekosystému Rust.
+* Cargo, přibalený správce závislostí a nástroj pro sestavení, umožňuje
+  přidávat, kompilovat a spravovat závislosti bez problémů a konzistentně v
+  celém ekosystému Rust.
 * Rustfmt zajišťuje konzistentní styl zápisu u všech vývojářů.
-* Rust Language Server umožňuje integraci automatického dokončování kódu a inline chybových zpráv do vývojového
-  prostředí (IDE).
+* Rust Language Server umožňuje integraci automatického dokončování kódu a
+  inline chybových zpráv do vývojového prostředí (IDE).
 
-Pomocí těchto a dalších nástrojů v ekosystému Rust mohou být vývojáři produktivní při psaní kódu na systémové úrovni.
+Pomocí těchto a dalších nástrojů v ekosystému Rust mohou být vývojáři
+produktivní při psaní kódu na systémové úrovni.
 
 ### Studenti
 
-Rust je určen pro studenty a zájemce o systémové koncepty. Pomocí jazyka Rust se mnoho lidí naučilo témata, jako je
-vývoj operačních systémů. Komunita je velmi vstřícná a ráda odpovídá na dotazy studentů. Prostřednictvím úsilí, jako je
-tato kniha, chtějí týmy Rustu zpřístupnit systémové koncepty více lidem, zejména těm, kteří se s programováním teprve
-seznamují.
+Rust je určen pro studenty a zájemce o systémové koncepty. Pomocí jazyka Rust se
+mnoho lidí naučilo témata, jako je vývoj operačních systémů. Komunita je velmi
+vstřícná a ráda odpovídá na dotazy studentů. Prostřednictvím úsilí, jako je
+tato kniha, chtějí týmy Rustu zpřístupnit systémové koncepty více lidem, zejména
+těm, kteří se s programováním teprve seznamují.
 
-### Companies
+### Společnosti
 
-Hundreds of companies, large and small, use Rust in production for a variety of
-tasks. Those tasks include command line tools, web services, DevOps tooling,
-embedded devices, audio and video analysis and transcoding, cryptocurrencies,
-bioinformatics, search engines, Internet of Things applications, machine
-learning, and even major parts of the Firefox web browser.
+Stovky velkých i malých firem používají Rust v produkci pro nejrůznější úlohy.
+Mezi tyto úlohy patří nástroje příkazového řádku, webové služby a DevOps
+nástroje, vestavěné systémy, analýza a transkódování zvuku a videa, kryptoměny,
+bioinformatika, vyhledávače, aplikace pro internet věcí, strojové
+učení, a dokonce i podstatné části webového prohlížeče Firefox.
 
-### Open Source Developers
+### Open Source Vývojáři
 
-Rust is for people who want to build the Rust programming language, community,
-developer tools, and libraries. We’d love to have you contribute to the Rust
-language.
+Rust je určen pro lidi, kteří chtějí budovat programovací jazyk Rust, jeho
+komunitu, vývojářské nástroje a knihovny. Budeme rádi, když se i vy budete
+podílet na vývoji.
 
-### People Who Value Speed and Stability
+### Lidé, kterým záleží na rychlosti a stabilitě
 
-Rust is for people who crave speed and stability in a language. By speed, we
-mean the speed of the programs that you can create with Rust and the speed at
-which Rust lets you write them. The Rust compiler’s checks ensure stability
-through feature additions and refactoring. This is in contrast to the brittle
-legacy code in languages without these checks, which developers are often
-afraid to modify. By striving for zero-cost abstractions, higher-level features
-that compile to lower-level code as fast as code written manually, Rust
-endeavors to make safe code be fast code as well.
+Rust je pro lidi, kteří touží po rychlosti a stabilitě jazyka. Rychlostí máme na
+mysli rychlost programů, které můžete v jazyce Rust vytvářet, a rychlost, s
+jakou vám Rust umožní je psát. Kontroly překladače jazyka Rust zajišťují
+stabilitu prostřednictvím doplňování funkcí a refaktoringu. To jde v kontrastu s
+křehkým starším kódem v jazycích bez těchto kontrol, který se vývojáři často
+bojí upravovat. Díky snaze o abstrakce s nulovými náklady, tedy funkce vyšší
+úrovně, které se kompilují do kódu nižší úrovně stejně rychle jako kód napsaný
+ručně, Rust usiluje o to, aby bezpečný kód byl také rychlým kódem.
 
-The Rust language hopes to support many other users as well; those mentioned
-here are merely some of the biggest stakeholders. Overall, Rust’s greatest
-ambition is to eliminate the trade-offs that programmers have accepted for
-decades by providing safety *and* productivity, speed *and* ergonomics. Give
-Rust a try and see if its choices work for you.
+Rust má potenciál pomáhat i mnoha dalším uživatelům; ti, kteří jsou zde zmíněni,
+jsou pouze jedněmi z největších zástupců. Největší ambicí jazyka je Rust
+odstranit kompromisy, které programátoři přijímali po desetiletí, a to
+zajištěním bezpečnosti *a* produktivity a také rychlosti *a* ergonomie.
+Vyzkoušejte Rust a zjistěte, zda vám budou jeho
+rozhodnutí vyhovovat.
 
-## Who This Book Is For
+## Pro koho je tato kniha
 
-This book assumes that you’ve written code in another programming language but
-doesn’t make any assumptions about which one. We’ve tried to make the material
-broadly accessible to those from a wide variety of programming backgrounds. We
-don’t spend a lot of time talking about what programming *is* or how to think
-about it. If you’re entirely new to programming, you would be better served by
-reading a book that specifically provides an introduction to programming.
+Tato kniha předpokládá, že jste již psali kód v jiném programovacím jazyce, ale
+nepředpokládá, ve kterém. Snažili jsme se, aby byl materiál široce přístupný pro
+zájemce z nejrůznějších programátorských prostředí. Nevěnujeme mnoho času
+tomu, co programování *je* nebo jak o něm přemýšlet. Pokud jste v programování
+úplní nováčci, bude pro vás lepší, když si přečtete knihu, která poskytuje
+speciální úvod do programování.
 
-## How to Use This Book
+## Jak knihu používat
 
-In general, this book assumes that you’re reading it in sequence from front to
-back. Later chapters build on concepts in earlier chapters, and earlier
-chapters might not delve into details on a topic; we typically revisit the
-topic in a later chapter.
+Tato kniha obecně předpokládá, že ji budete číst postupně od začátku do konce.
+Pozdější kapitoly navazují na koncepty v předchozích kapitolách a dřívější
+kapitoly se nemusí zabývat podrobnostmi o daném tématu; obvykle se k tématu
+vracíme v pozdější kapitole.
 
-You’ll find two kinds of chapters in this book: concept chapters and project
-chapters. In concept chapters, you’ll learn about an aspect of Rust. In project
-chapters, we’ll build small programs together, applying what you’ve learned so
-far. Chapters 2, 12, and 20 are project chapters; the rest are concept chapters.
+V této knize najdete dva druhy kapitol: kapitoly o konceptech a kapitoly o
+projektech. V konceptových kapitolách se seznámíte s určitým aspektem Rustu.
+Zatímco v projektových kapitolách budeme společně vytvářet menší programy a
+aplikovat v nich to, co jste se doposud naučili. Kapitoly 2, 12 a 20 jsou
+projektové kapitoly; zbytek jsou kapitoly konceptové.
 
-Chapter 1 explains how to install Rust, how to write a “Hello, world!” program,
-and how to use Cargo, Rust’s package manager and build tool. Chapter 2 is a
-hands-on introduction to the Rust language. Here we cover concepts at a high
-level, and later chapters will provide additional detail. If you want to get
-your hands dirty right away, Chapter 2 is the place for that. At first, you
-might even want to skip Chapter 3, which covers Rust features similar to those
-of other programming languages, and head straight to Chapter 4 to learn about
-Rust’s ownership system. However, if you’re a particularly meticulous learner
-who prefers to learn every detail before moving on to the next, you might want
-to skip Chapter 2 and go straight to Chapter 3, returning to Chapter 2 when
-you’d like to work on a project applying the details you’ve learned.
+První kapitola vysvětluje, jak nainstalovat Rust, jak napsat program "Hello,
+world!" a jak používat Cargo, správce balíčků a nástroj pro sestavení Rustu.
+Kapitola 2 je praktickým úvodem do jazyka Rust. Zde se věnujeme konceptům na
+vysoké úrovni a další kapitoly se budou věnovat podrobnějším detailům. Pokud si
+chcete všechno hned vyzkoušet na vlastní kůži, je kapitola 2 tím pravým místem.
+Zpočátku možná budete chtít dokonce přeskočit kapitolu 3, která se zabývá
+funkcemi jazyka Rust podobnými funkcím jiných programovacích jazyků, a přejít
+rovnou ke kapitole 4, kde se seznámíte se systémem vlastnictví jazyka Rust.
+Pokud jste však obzvláště pečliví žáci, kteří se raději naučí každý detail, než
+přejdou k dalšímu, možná budete chtít kapitolu 2 přeskočit a přejít rovnou ke
+kapitole 3 a ke kapitole 2 se vrátit, až když budete chtít pracovat na projektu
+s využitím nabytých znalostí.
 
-Chapter 5 discusses structs and methods, and Chapter 6 covers enums, `match`
-expressions, and the `if let` control flow construct. You’ll use structs and
-enums to make custom types in Rust.
+Kapitola 5 pojednává o strukturách a metodách a kapitola 6 se zabývá
+výčty, `match` výrazy a konstruktu `if let` pro tok řízení. V Rustu budete
+struktury a metody používat k vytváření vlastních datových typů.
 
-In Chapter 7, you’ll learn about Rust’s module system and about privacy rules
-for organizing your code and its public Application Programming Interface
-(API). Chapter 8 discusses some common collection data structures that the
-standard library provides, such as vectors, strings, and hash maps. Chapter 9
-explores Rust’s error-handling philosophy and techniques.
+V kapitole 7 se seznámíte se systémem modulů a s pravidly viditelnosti pro
+uspořádání kódu a s jeho veřejným rozhraním (API). Kapitola 8 pojednává o
+některých běžných kolekcích, které poskytuje standardní knihovna, jako jsou
+například vektory, řetězce nebo hashovací mapy. Kapitola 9 se zabývá filozofií
+a technikami zpracování chyb v jazyce Rust.
 
-Chapter 10 digs into generics, traits, and lifetimes, which give you the power
-to define code that applies to multiple types. Chapter 11 is all about testing,
-which even with Rust’s safety guarantees is necessary to ensure your program’s
-logic is correct. In Chapter 12, we’ll build our own implementation of a subset
-of functionality from the `grep` command line tool that searches for text
-within files. For this, we’ll use many of the concepts we discussed in the
-previous chapters.
+Kapitola 10 se zabývá genericitou, vlastnostmi a životností. Tyto nástroje vám
+umožňují definovat kód, který se vztahuje na více datových typů. Kapitola 11 je
+věnována testování, které je i díky bezpečnostním zárukám Rustu nezbytné pro
+zajištění správné logiky programu. V kapitole 12 vytvoříme vlastní implementaci
+podmnožiny funkcí nástroje `grep` pro příkazový řádek, který vyhledává text v
+souborech. K tomu využijeme mnoho konceptů, které jsme probrali v předchozích
+kapitolách.
 
-Chapter 13 explores closures and iterators: features of Rust that come from
-functional programming languages. In Chapter 14, we’ll examine Cargo in more
-depth and talk about best practices for sharing your libraries with others.
-Chapter 15 discusses smart pointers that the standard library provides and the
-traits that enable their functionality.
+Kapitola 13 se zabývá uzávěry a iterátory: funkcionalitami, které pocházejí z
+funkcionálních programovacích jazyků. V kapitole 14 se budeme podrobněji zabývat
+systémem Cargo a probereme osvědčené postupy pro sdílení knihoven s ostatními.
+Kapitola 15 se zabývá chytrými ukazateli a vlastnostmi (traits), které umožňují
+jejich funkčnost.
 
-In Chapter 16, we’ll walk through different models of concurrent programming
-and talk about how Rust helps you to program in multiple threads fearlessly.
-Chapter 17 looks at how Rust idioms compare to object-oriented programming
-principles you might be familiar with.
+V kapitole 16 se seznámíme s různými modely paralelního programování a povíme
+si, jak vám Rust pomůže programovat ve více vláknech bez obav. V kapitole 17 se
+podíváme na srovnání idiomů jazyka Rust s principy objektového programování,
+které možná znáte.
 
-Chapter 18 is a reference on patterns and pattern matching, which are powerful
-ways of expressing ideas throughout Rust programs. Chapter 19 contains a
-smorgasbord of advanced topics of interest, including unsafe Rust, macros, and
-more about lifetimes, traits, types, functions, and closures.
+Kapitola 18 je odkazem na vzory a porovnávání vzorů, což jsou mocné způsoby
+vyjádření myšlenek v Rustu. Kapitola 19 obsahuje přehršel pokročilých zajímavých
+témat, včetně nechráněného (unsafe) Rustu, maker a dalších informací o dobách
+životnosti, vlastnostech, typech, funkcích a uzávěrech.
 
-In Chapter 20, we’ll complete a project in which we’ll implement a low-level
-multithreaded web server!
+V kapitole 20 dokončíme projekt, ve kterém budeme implementovat nízkoúrovňový
+vícevláknový webový server!
 
-Finally, some appendices contain useful information about the language in a
-more reference-like format. Appendix A covers Rust’s keywords, Appendix B
-covers Rust’s operators and symbols, Appendix C covers derivable traits
-provided by the standard library, Appendix D covers some useful development
-tools, and Appendix E explains Rust editions. In Appendix F, you can find
-translations of the book, and in Appendix G we’ll cover how Rust is made and
-what nightly Rust is.
+Některé přílohy obsahují užitečné informace o jazyce ve formě příručky. Dodatek
+A se zabývá klíčovými slovy jazyka Rust, dodatek B operátory a symboly jazyka
+Rust, dodatek C derivovatelnými vlastnostmi poskytovanými standardní knihovnou,
+dodatek D některými užitečnými vývojovými nástroji a dodatek E vysvětluje edice
+jazyka Rust. V dodatku F najdete překlady knihy a v dodatku G se budeme zabývat
+tím, jak se Rust vyvíjí a co je to tzv. "nightly" Rust.
 
-There is no wrong way to read this book: if you want to skip ahead, go for it!
-You might have to jump back to earlier chapters if you experience any
-confusion. But do whatever works for you.
+Neexistuje žádný nesprávný způsob, jak tuto knihu číst: pokud chcete
+přeskakovat, jděte směle do toho! Možná se budete muset vrátit k dřívějším
+kapitolám, pokud se někde ztratíte. Ale postupujte tak, jak vám to vyhovuje.
 
 <span id="ferris"></span>
 
-An important part of the process of learning Rust is learning how to read the
-error messages the compiler displays: these will guide you toward working code.
-As such, we’ll provide many examples that don’t compile along with the error
-message the compiler will show you in each situation. Know that if you enter
-and run a random example, it may not compile! Make sure you read the
-surrounding text to see whether the example you’re trying to run is meant to
-error. Ferris will also help you distinguish code that isn’t meant to work:
+Důležitou součástí procesu studia jazyka Rust je naučit se číst chybová hlášení,
+která překladač zobrazuje: ta vás navedou k funkčnímu kódu.
+Proto uvedeme mnoho příkladů, které se nezkompilují, spolu s chybovými
+hlášeními, které vám překladač v každé situaci zobrazí. Pamatujte, že pokud
+zadáte a spustíte náhodný příklad, nemusí se zkompilovat! Ujistěte se, že jste
+si přečetli okolní text, kde najdete, zda příklad, který se snažíte spustit, má
+selhat nebo ne. Ferris vám také pomůže rozlišit kód, který nemá fungovat:
 
-| Ferris                                                                                                           | Meaning                                          |
-|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| <img src="img/ferris/does_not_compile.svg" class="ferris-explain" alt="Ferris with a question mark"/>            | This code does not compile!                      |
-| <img src="img/ferris/panics.svg" class="ferris-explain" alt="Ferris throwing up their hands"/>                   | This code panics!                                |
-| <img src="img/ferris/not_desired_behavior.svg" class="ferris-explain" alt="Ferris with one claw up, shrugging"/> | This code does not produce the desired behavior. |
+| Ferris                                                                                                           | Meaning                               |
+|------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| <img src="img/ferris/does_not_compile.svg" class="ferris-explain" alt="Ferris with a question mark"/>            | Tento kód se nezkompiluje!            |
+| <img src="img/ferris/panics.svg" class="ferris-explain" alt="Ferris throwing up their hands"/>                   | Tento kód selže (panic)!              |
+| <img src="img/ferris/not_desired_behavior.svg" class="ferris-explain" alt="Ferris with one claw up, shrugging"/> | Tento kód nevede k žádoucímu chování. |
 
-In most situations, we’ll lead you to the correct version of any code that
-doesn’t compile.
+Ve většině situací vás navedeme k nápravě kódu, který nejdříve nepůjde
+zkompilovat.
 
 ## Source Code
 
-The source files from which this book is generated can be found on
-[GitHub][book].
+Zdrojové soubory, ze kterých je tato kniha vygenerována, naleznete na
+[GitHubu][book].
 
 [book]: https://github.com/rust-lang/book/tree/main/src
